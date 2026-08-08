@@ -5,28 +5,28 @@
 ## Быстрый старт
 
 ```bash
-export OPENROUTER_API_KEY=ключ от openrouter
-.venv/bin/python run_game.py --log-file logs/game_log.txt
+export OPENROUTER_API_KEY=sk-or-v1-ВАШ_КЛЮЧ
+python3 run_game.py --log-file logs/game_log.txt
 ```
 
 API-ключ читается из `OPENROUTER_API_KEY`
 
 ## Флаги
-
+```
  `--models M1 M2 ...` или `-m`  Модели openrouter 7 для 7 игроков 
- `--players N` или `-p`  Количество игроков по умолч. 7) |
+ `--players N` или `-p`  Количество игроков по умолч. 7
  `--discussion-rounds N`  Раунды обсуждения в день по умолч. 2
  `--log-file PATH` или `-l`  Сохранить транскрипт игры в файл 
   `--help` или `-h`  Справка 
-
+```
 ## Переменные окружения
-
-`OPENROUTER_API_KEY`  *(обязательно)* | API-ключ OpenRouter 
+```
+`OPENROUTER_API_KEY`  *(обязательно)*  API-ключ OpenRouter 
 `MODELS`  встроенные  Comma-separated модели 
 `NUM_PLAYERS`  `7`  Количество игроков 
 `DISCUSSION_ROUNDS`  `2` | Раунды обсуждения 
 `REASONING`  `1`  Включить reasoning (1/0) 
-
+```
 ## Готовая команда
 
 ```bash
