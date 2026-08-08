@@ -27,7 +27,7 @@ API-ключ читается из `OPENROUTER_API_KEY`
 `DISCUSSION_ROUNDS`  `2` | Раунды обсуждения 
 `REASONING`  `1`  Включить reasoning (1/0) 
 ```
-## Готовая команда
+## Команда Для виртуального Окружения
 
 ```bash
 export OPENROUTER_API_KEY=sk-or-v1-ВАШ_КЛЮЧ
