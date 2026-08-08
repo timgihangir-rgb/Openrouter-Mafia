@@ -1,4 +1,4 @@
-# Mafia AI — Игра Мафия на LLM
+# OpenrouterMafia — Игра Мафия на LLM
 
 Игра Мафия, где llm-модели из openrouter играют за ролей
 
